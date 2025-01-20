@@ -1,0 +1,27 @@
+{
+  "name": "chatgpt-connector",
+  "version": "1.0.0",
+  "description": "A connector for integrating with the ChatGPT API.",
+  "main": "src/connector.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/connector.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/chatgpt-connector.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "connector",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
